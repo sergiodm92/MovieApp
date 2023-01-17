@@ -1,0 +1,9 @@
+.container-header{
+    display: flex;
+    height: 50px;
+    color: white;
+}
+
+#div-header{
+    color: aliceblue;
+}
