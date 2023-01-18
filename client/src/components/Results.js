@@ -4,7 +4,7 @@ import axios from 'axios'
 import swal from '@sweetalert/with-react'
 
 import '../css/results.css'
-
+import '../css/results.css'
 
 
 function Results(){

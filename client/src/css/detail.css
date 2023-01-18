@@ -1,0 +1,27 @@
+.container-detail{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+    text-align:justify;
+}
+
+@media screen and (max-width: 990px) {
+
+.container-detail{ 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.card-img{
+    min-width: 400px;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+}
+
+

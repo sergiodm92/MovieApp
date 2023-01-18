@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Navigate, useParams } from "react-router"
 // Styles
 import '../css/bootstrap.min.css'
+import '../css/detail.css'
 
 
 
@@ -33,10 +34,10 @@ function Detail () {
     return(
         <>
         {token? 
-            <div>
-                <div className="row">
+            <div className="container-detail">
+                <div className="row container-detail">
                     <div className="col-4">
-                    <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} className="card-img-top" alt="..."/>
+                    <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} className="card-img" alt="..."/>
                     </div>
                     <div className="col-8">
                         <h5>{movie.original_title}</h5>
